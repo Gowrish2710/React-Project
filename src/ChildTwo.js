@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ChildTwo(){
+function Footer(){
     return(
-        <h1>Child Two</h1>
+        <p className = "footer" >Footer Contents</p>
     )
 }
 
-export default ChildTwo
+export default Footer

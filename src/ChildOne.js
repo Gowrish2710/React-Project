@@ -1,9 +1,10 @@
 import React from 'react';
 
-function ChildOne(){
+
+function MainContent(){
     return(
-        <h1>ChildOne</h1>
+        <p className = "maincontent" >MainContent</p>
     )
 }
 
-export default ChildOne
+export default MainContent
