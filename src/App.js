@@ -1,8 +1,14 @@
 import React from 'react';
+import ChildOne from './ChildOne';
+import ChildTwo from './ChildTwo';
 
 function App() {
   return (
-    <h1>Hello React</h1>
+    <div>
+      <h1>Hello React From Parent</h1>
+      <ChildOne/>
+      <ChildTwo/>
+    </div>
   );
 }
 
